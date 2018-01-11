@@ -15,19 +15,17 @@
 
 
 
-<meta name="description" content="回到最初">
-<meta name="keywords" content="情感">
+<meta name="description" content="T 检验和 F 检验的由来  一般而言，为了确定从样本 (sample) 统计结果推论至总体时所犯错的概率，我们会利用统计学家所开发的一些统计方法，进行统计检定。 通过把所得到的统计检定值，与统计学家建立了一些随机变量的概率分布 (probability distribution) 进行比较，我们可以知道在多少 % 的机会下会得到目前的结果。倘若经比较后发现，出现这结果的机率很少，亦即是说，是在">
+<meta name="keywords" content="SPSS 统计学">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hi,我们重新认识一下吧">
-<meta property="og:url" content="https://liweixiong0621.github.io/liwx/2018/01/09/hi/index.html">
+<meta property="og:title" content="统计学中的t检验与f检验[转载]">
+<meta property="og:url" content="https://liweixiong0621.github.io/liwx/2018/01/11/t-f/index.html">
 <meta property="og:site_name" content="liwx&#39;s Blog">
-<meta property="og:description" content="回到最初">
-<meta property="og:image" content="http://blogimg-1255806009.picgz.myqcloud.com/girl.png">
-<meta property="og:updated_time" content="2018-01-09T04:04:07.862Z">
+<meta property="og:description" content="T 检验和 F 检验的由来  一般而言，为了确定从样本 (sample) 统计结果推论至总体时所犯错的概率，我们会利用统计学家所开发的一些统计方法，进行统计检定。 通过把所得到的统计检定值，与统计学家建立了一些随机变量的概率分布 (probability distribution) 进行比较，我们可以知道在多少 % 的机会下会得到目前的结果。倘若经比较后发现，出现这结果的机率很少，亦即是说，是在">
+<meta property="og:updated_time" content="2018-01-11T07:33:39.690Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hi,我们重新认识一下吧">
-<meta name="twitter:description" content="回到最初">
-<meta name="twitter:image" content="http://blogimg-1255806009.picgz.myqcloud.com/girl.png">
+<meta name="twitter:title" content="统计学中的t检验与f检验[转载]">
+<meta name="twitter:description" content="T 检验和 F 检验的由来  一般而言，为了确定从样本 (sample) 统计结果推论至总体时所犯错的概率，我们会利用统计学家所开发的一些统计方法，进行统计检定。 通过把所得到的统计检定值，与统计学家建立了一些随机变量的概率分布 (probability distribution) 进行比较，我们可以知道在多少 % 的机会下会得到目前的结果。倘若经比较后发现，出现这结果的机率很少，亦即是说，是在">
 
 <link rel="apple-touch-icon" href= "/liwx//apple-touch-icon.png">
 
@@ -59,7 +57,7 @@
 <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
 
-<title>Hi,我们重新认识一下吧 | liwx&#39;s Blog</title>
+<title>统计学中的t检验与f检验[转载] | liwx&#39;s Blog</title>
 
 <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
@@ -270,11 +268,11 @@
     </div>
     <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
 </nav>
-      <div class="body-wrap"><article id="post-hi" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-t-f" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/liwx/2018/01/09/hi/" class="article-date">
-      <time datetime="2018-01-09T03:10:59.000Z" itemprop="datePublished">2018-01-09</time>
+      <a href="/liwx/2018/01/11/t-f/" class="article-date">
+      <time datetime="2018-01-11T05:58:21.000Z" itemprop="datePublished">2018-01-11</time>
 </a>
 
 
@@ -289,7 +287,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      Hi,我们重新认识一下吧
+      统计学中的t检验与f检验[转载]
     </h1>
   
 
@@ -300,7 +298,7 @@
 
         
     <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/liwx/tags/情感/">情感</a></li></ul>
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/liwx/tags/SPSS-统计学/">SPSS 统计学</a></li></ul>
     </div>
 
         <div class="clearfix"></div>
@@ -310,7 +308,53 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <p>回到最初<br><img src="http://blogimg-1255806009.picgz.myqcloud.com/girl.png"></p>
+        <ol>
+<li>T 检验和 F 检验的由来</li>
+</ol>
+<p>一般而言，为了确定从样本 (sample) 统计结果推论至总体时所犯错的概率，我们会利用统计学家所开发的一些统计方法，进行统计检定。</p>
+<p>通过把所得到的统计检定值，与统计学家建立了一些随机变量的概率分布 (probability distribution) 进行比较，我们可以知道在多少 % 的机会下会得到目前的结果。倘若经比较后发现，出现这结果的机率很少，亦即是说，是在机会很 少、很罕有的情况下才出现；那我们便可以有信心的说，这不是巧合，是具有统计学上的意义的 (用统计学的话讲，就是能够拒绝虚无假设 null hypothesis,Ho)。相反，若比较后发现，出现的机率很高，并不罕见；那我们便不能很有信心的直指这不是巧合，也许是巧合，也许不是，但我们没 能确定。</p>
+<p>F 值和 t 值就是这些统计检定值，与它们相对应的概率分布，就是 F 分布和 t 分布。统计显著性（sig）就是出现目前样本这结果的机率。</p>
+<p>2.统计学意义（P 值或 sig 值）</p>
+<p>结果的统计学意义，是结果真实程度（能够代表总体）的一种估计方法。专业上，p 值为结果可信程度的一个递减指标，p 值越大，我们越不能认为样本中变量的关联是 总体中各变量关联的可靠指标。p 值是将观察结果认为有效即具有总体代表性的犯错概率。如 p=0.05 提示样本中变量关联有 5% 的可能是由于偶然性造成的。 即假设总体中任意变量间均无关联，我们重复类似实验，会发现约 20 个实验中有一个实验，我们所研究的变量关联将等于或强于我们的实验结果。（这并不是说如 果变量间存在关联，我们可得到 5% 或 95% 次数的相同结果，当总体中的变量存在关联，重复研究和发现关联的可能性与设计的统计学效力有关。）在许多研究领 域，0.05 的 p 值通常被认为是可接受错误的边界水平。</p>
+<ol>
+<li>T 检验和 F 检验</li>
+</ol>
+<p>至於具体要检定的内容，须看你是在做哪一个统计程序。</p>
+<p>举一个例子，比如，你要检验两独立样本均数差异是否能推论至总体，而行的 t 检验。</p>
+<p>两样本 (如某班男生和女生) 某变量 (如身高) 的均数并不相同，但这差别是否能推论至总体，代表总体的情况也是存在著差异呢？<br>会不会总体中男女生根本没有差别，只不过是你那麼巧抽到这 2 样本的数值不同？</p>
+<p>为此，我们进行 t 检定，算出一个 t 检定值。</p>
+<p>与统计学家建立的以「总体中没差别」作基础的随机变量 t 分布进行比较，看看在多少% 的机会 (亦即显著性 sig 值) 下会得到目前的结果。</p>
+<p>若显著性 sig 值很少，比如&lt;0.05 (少於5% 机率)，亦即是说，「如果」总体「真的」没有差别，那麼就只有在机会很少(5%)、很罕有的情况下， 才会出现目前这样本的情况。虽然还是有5% 机会出错(1-0.05=5%)，但我们还是可以「比较有信心」的说：目前样本中这情况(男女生出现差异的情 况)不是巧合，是具统计学意义的，「总体中男女生不存差异」的虚无假设应予拒绝，简言之，总体应该存在著差异。</p>
+<p>每一种统计方法的检定的内容都不相同，同样是t-检定，可能是上述的检定总体中是否存在差异，也同能是检定总体中的单一值是否等於0或者等於某一个数值。</p>
+<p>至 於F-检定，方差分析(或译变异数分析，Analysis of Variance)，它的原理大致也是上面说的，但它是透过检视变量的方差而进行的。它主要用于：均数差别的显著性检验、分离各有关因素并估计其对总变异 的作用、分析因素间的交互作用、方差齐性(Equality of Variances)检验等情况。</p>
+<ol>
+<li>T 检验和 F 检验的关系</li>
+</ol>
+<p>t 检验过程，是对两样本均数(mean)差别的显著性进行检验。惟 t 检验须知道两个总体的方差(Variances)是否相等；t 检验值的计算会因方差是否相等而有所不同。也就是说，t 检验须视乎方差齐性(Equality of Variances)结果。所以，SPSS在进行t-test for Equality of Means的同时，也要做Levene”s Test for Equality of Variances 。</p>
+<p>1.在Levene”s Test for Equality of Variances一栏中 F值为2.36, Sig. 为.128，表示方差齐性检验「没有显著差异」，即两方差齐(Equal Variances)，故下面 t 检验的结果表中要看第一排的数据，亦即方差齐的情况下的t检验的结果。</p>
+<p>2.<br>在t-test for Equality of Means中，第一排(Variances=Equal)的情况：t=8.892, df=84, 2-Tail Sig=.000, Mean Difference=22.99<br>既然Sig=.000，亦即，两样本均数差别有显著性意义！</p>
+<p>3.到底看哪个Levene”s Test for Equality of Variances一栏中sig, 还是看t-test for Equality of Means中那个Sig. (2-tailed)啊?</p>
+<p>答案是：两个都要看。</p>
+<p>先看Levene”s Test for Equality of Variances，如果方差齐性检验「没有显著差异」，即两方差齐(Equal Variances)，故接著的t检验的结果表中要看第一排的数据，亦即方差齐的情况下的t检验的结果。</p>
+<p>反之，如果方差齐性检验「有显著差异」，即两方差不齐(Unequal Variances)，故接著的t检验的结果表中要看第二排的数据，亦即方差不齐的情况下的t检验的结果。</p>
+<p>4.你做的是T检验，为什么会有F值呢?</p>
+<p>就是因为要评估两个总体的方差(Variances)是否相等，要做Levene”s Test for Equality of Variances，要检验方差，故所以就有F值。</p>
+<p>另一种解释：</p>
+<p>t检验有单样本t检验，配对t检验和两样本t检验。</p>
+<p>单样本t检验：是用样本均数代表的未知总体均数和已知总体均数进行比较，来观察此组样本与总体的差异性。</p>
+<p>配对t检验：是采用配对设计方法观察以下几种情形，1，两个同质受试对象分别接受两种不同的处理；2, 同一受试对象接受两种不同的处理；3，同一受试对象处理前后。</p>
+<p>F检验又叫方差齐性检验。在两样本t检验中要用到F检验。</p>
+<p>从两研究总体中随机抽取样本，要对这两个样本进行比较的时候，首先要判断两总体方差是否相同，即方差齐性。若两总体方差相等，则直接用t检验，若不等，可采用t”检验或变量变换或秩和检验等方法。</p>
+<p>其中要判断两总体方差是否相等，就可以用F检验。</p>
+<p>若 是单组设计，必须给出一个标准值或总体均值，同时，提供一组定量的观测结果，应用t检验的前提条件就是该组资料必须服从正态分布；若是配对设计，每对数据 的差值必须服从正态分布；若是成组设计，个体之间相互独立，两组资料均取自正态分布的总体，并满足方差齐性。之所以需要这些前提条件，是因为必须在这样的 前提下所计算出的t统计量才服从t分布，而t检验正是以t分布作为其理论依据的检验方法。</p>
+<p>简单来说就是实用T检验是有条件的，其中之一就是要符合方差齐次性，这点需要F检验来验证</p>
+<p>统计学意义（p值）</p>
+<p>结 果的统计学意义是结果真实程度（能够代表总体）的一种估计方法。专业上，p值为结果可信程度的一个递减指标，p值越大，我们越不能认为样本中变量的关联是 总体中各变量关联的可靠指标。p值是将观察结果认为有效即具有总体代表性的犯错概率。如p=0.05提示样本中变量关联有5% 的可能是由于偶然性造成的。 即假设总体中任意变量间均无关联，我们重复类似实验，会发现约20个实验中有一个实验，我们所研究的变量关联将等于或强于我们的实验结果。（这并不是说如 果变量间存在关联，我们可得到5% 或95% 次数的相同结果，当总体中的变量存在关联，重复研究和发现关联的可能性与设计的统计学效力有关。）在许多研究领 域，0.05的p值通常被认为是可接受错误的边界水平。</p>
+<p>如何判定结果具有真实的显著性</p>
+<p>在最后结论中判断什么 样的显著性水平具有统计学意义，不可避免地带有武断性。换句话说，认为结果无效而被拒绝接受的水平的选择具有武断性。实践中，最后的决定通常依赖于数据集 比较和分析过程中结果是先验性还是仅仅为均数之间的两两&gt;比较，依赖于总体数据集里结论一致的支持性证据的数量，依赖于以往该研究领域的惯例。通 常，许多的科学领域中产生p值的结果≤0.05被认为是统计学意义的边界线，但是这显著性水平还包含了相当高的犯错可能性。结果 0.05≥p&gt;0.01 被认为是具有统计学意义，而 0.01≥p≥0.001 被认为具有高度统计学意义。但要注意这种分类仅仅是研究基础上非正规的 判断常规。</p>
+<p>所有的检验统计都是正态分布的吗?</p>
+<p>并不完全如此，但大多数检验都直接或间接与之有关，可 以从正态分布中推导出来，如 t检验、f 检验或卡方检验。这些检验一般都要求：所分析变量在总体中呈正态分布，即满足所谓的正态假设。许多观察变量的确是呈 正态分布的，这也是正态分布是现实世界的基本特征的原因。当人们用在正态分布基础上建立的检验分析非正态分布变量的数据时问题就产生了，（参阅非参数和方 差分析的正态性检验）。</p>
+<p>这种条件下有两种方法：一是用替代的非参数检验（即无分布性检验），但这种方法不方便，因为从它所提供的结论形式看，这种方法统计 效率低下、不灵活。另一种方法是：当确定样本量足够大的情况下，通常还是可以使用基于正态分布前提下的检验。后一种方法是基于一个相当重要的原则产生的， 该原则对正态方程基础上的总体检验有极其重要的作用。即，随着样本量的增加，样本分布形状趋于正态，即使所研究的变量分布并不呈正态。</p>
 
       
     </div>
@@ -319,13 +363,13 @@
   
     
     <div class="copyright">
-        <p><span>本文标题:</span><a href="/liwx/2018/01/09/hi/">Hi,我们重新认识一下吧</a></p>
+        <p><span>本文标题:</span><a href="/liwx/2018/01/11/t-f/">统计学中的t检验与f检验[转载]</a></p>
         <p><span>文章作者:</span><a href="/" title="回到主页">李伟雄</a></p>
-        <p><span>发布时间:</span>2018-01-09, 11:10:59</p>
-        <p><span>最后更新:</span>2018-01-09, 12:04:07</p>
+        <p><span>发布时间:</span>2018-01-11, 13:58:21</p>
+        <p><span>最后更新:</span>2018-01-11, 15:33:39</p>
         <p>
-            <span>原始链接:</span><a class="post-url" href="/liwx/2018/01/09/hi/" title="Hi,我们重新认识一下吧">https://liweixiong0621.github.io/liwx/2018/01/09/hi/</a>
-            <span class="copy-path" data-clipboard-text="原文: https://liweixiong0621.github.io/liwx/2018/01/09/hi/　　作者: 李伟雄" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <span>原始链接:</span><a class="post-url" href="/liwx/2018/01/11/t-f/" title="统计学中的t检验与f检验[转载]">https://liweixiong0621.github.io/liwx/2018/01/11/t-f/</a>
+            <span class="copy-path" data-clipboard-text="原文: https://liweixiong0621.github.io/liwx/2018/01/11/t-f/　　作者: 李伟雄" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
             <script> var clipboard = new Clipboard('.copy-path'); </script>
         </p>
         <p>
@@ -337,16 +381,10 @@
 
     <nav id="article-nav">
         
-            <div id="article-nav-newer" class="article-nav-title">
-                <a href="/liwx/2018/01/11/t-f/">
-                    统计学中的t检验与f检验[转载]
-                </a>
-            </div>
-        
         
             <div id="article-nav-older" class="article-nav-title">
-                <a href="/liwx/2018/01/04/hello-world/">
-                    Hello World
+                <a href="/liwx/2018/01/09/hi/">
+                    Hi,我们重新认识一下吧
                 </a>
             </div>
         
@@ -394,7 +432,7 @@
         </div>
         <script>
             window._bd_share_config={
-                "common":{"bdSnsKey":{},"bdText":"Hi,我们重新认识一下吧　| liwx's Blog　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+                "common":{"bdSnsKey":{},"bdText":"统计学中的t检验与f检验[转载]　| liwx's Blog　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
         </script>
     
 
@@ -414,15 +452,13 @@
 
     <div class="scroll" id="post-nav-button">
         
-            <a href="/liwx/2018/01/11/t-f/" title="上一篇: 统计学中的t检验与f检验[转载]">
-                <i class="fa fa-angle-left"></i>
-            </a>
+            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
         
 
         <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
 
         
-            <a href="/liwx/2018/01/04/hello-world/" title="下一篇: Hello World">
+            <a href="/liwx/2018/01/09/hi/" title="下一篇: Hi,我们重新认识一下吧">
                 <i class="fa fa-angle-right"></i>
             </a>
         
